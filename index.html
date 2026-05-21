@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate" />
+    <title>flow-Coding</title>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Manrope:wght@400;500;600&family=Lexend:wght@400;500;600&display=swap" as="style" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1&display=swap" as="style" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Manrope:wght@400;500;600&family=Lexend:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-C3OAcsaA.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/chunk-zsgVPwQN.js">
+    <link rel="modulepreload" crossorigin href="./assets/vision_bundle-BAT3WPI7.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-A0SWWD-g.css">
+  </head>
+  <body>
+    <!-- Splash Screen — shown until fonts are loaded -->
+    <div id="splash" style="position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:#f5f7fa;flex-direction:column;gap:12px;">
+      <div style="width:36px;height:36px;border:3px solid #e0e0e0;border-top-color:#0050d5;border-radius:50%;animation:spin .7s linear infinite;"></div>
+      <span style="font-family:sans-serif;font-size:13px;color:#74777a;">Loading…</span>
+      <style>@keyframes spin{to{transform:rotate(360deg)}}</style>
+    </div>
+    <script>
+      if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark');
+        var s = document.getElementById('splash');
+        s.style.background = '#1a1a2e';
+        s.querySelector('span').style.color = '#a0a3a6';
+        var d = s.querySelector('div');
+        d.style.borderColor = '#505358';
+        d.style.borderTopColor = '#618bff';
+      }
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
